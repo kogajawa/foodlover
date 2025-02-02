@@ -393,7 +393,7 @@ form input , textarea{
 #footer a{
     color: #fff;
 }
-@media(min-width:320px) {
+@media(max-width:650px) {
     .navbar{
         
         width: 80%;
