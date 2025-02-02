@@ -393,3 +393,226 @@ form input , textarea{
 #footer a{
     color: #fff;
 }
+@media(min-width:320px) {
+    .navbar{
+        
+        width: 80%;
+        height: 40px;
+    }
+    .navbar img{
+        width: 40px;
+        margin-left: 10px;
+        
+    }
+    .navbar ul{
+        padding: 3px;
+        margin: 3px;
+    }
+    .navbar nav ul li a{
+        font-weight: 300px;
+        padding: 1px;
+        font-size: 12px;
+
+    }
+    .navbar ul li{
+        padding: 5px;
+    }
+    .content h1{
+        font-size: 25px;
+        margin-left: 5px;
+        text-align: center;
+        
+    }
+    .content p{
+        margin-left: 5px;
+        text-align: center;
+    }
+    #offers{
+        height: 60vh;
+    
+    }
+    #about h2,
+    #menu .title h1,
+    .gallery h2{
+    font-size: 30px;
+    color: #383848;
+    margin-bottom: 15px;
+    }
+    #offers .text_offers img{
+        width: 60px;
+        
+    }
+    #offers .text_offers h3{
+        font-size: 12px;
+        margin-bottom: 3px 0;
+    }
+    #offers .text_offers p{
+        font-size: 13px;
+        padding: 0 10px;
+        font-weight: 300;
+        margin-bottom: 10px;
+        margin-top: 8px;
+    }
+    #offers .text_offers span{
+        font-size: 12px;
+        font-weight: 400;
+        margin-left: 5px;
+    
+    }
+    .text_about img{
+        width: 90px;
+        margin-bottom: 5px;
+        margin-right: 2px;
+        
+        
+    }
+    .text_about p 
+    {
+        line-height: 0.9;
+        margin-right: 1rem;
+        font-weight: 300;
+        margin-left: 4px;
+    }
+    .btn_about{
+        border-radius: 10px solid #fff ;
+        -webkit-border-radius: 10px solid #fff ;
+        -moz-border-radius: 10px solid #fff ;
+        -ms-border-radius: 10px solid #fff ;
+        -o-border-radius: 10px solid #fff ;
+        background-color: #383848;
+        margin-top: 10px;
+        margin-left: 4px;
+    }
+    #about a{
+        padding: 8px;
+        font-size: 12px;
+    }
+    #about .title ,
+    #offers .title , 
+    #menu .title{
+        text-align: center;
+        margin-bottom: 2rem;
+        
+    }
+    #offers .title h1{
+        font-size: 30px;
+    }
+    #menu{
+        padding: 2rem 0;
+        background-color: #f4f4f4;
+    }
+    #menu .items{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        
+    }
+    
+    #menu .items .menu-item img{
+        width: 40px;
+        margin-right: 5px;
+        margin-left: 5px;
+        
+    
+    }
+    #menu .items .menu-item h3{
+        font-size: 12px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        
+    }
+    #menu p {
+        font-size: 11px;
+    }
+    #menu .items .menu-item span{
+        font-size: 10px;
+    
+    }
+    #menu .btn{
+        margin:10px  auto 0;
+    }
+    #menu button{
+        padding: 8px;
+    }
+    .daytime .day-times{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 30vh;
+    }
+    .daytime .day-times .day-time h3{
+        font-size: 18px;
+        margin: 10px 05px;
+    }
+    .daytime .day-times .day-time p{
+        font-weight: 300;
+        font-size: 14px;
+        
+    }
+    .daytime img{
+        width: 60px;
+    }
+
+    #gallery .img-gallery img{
+        width: 90px;
+        height: 100px;
+        margin: 15px;
+    }
+    #gallery{
+        
+        padding: 4rem 0 3rem;
+        
+    }
+    #gallery h2{
+        margin-bottom: 15px;
+    }
+    #contact{
+        padding: 2rem 0;
+        
+        background-color:#f4f4f4;
+    }
+    #contact .contener{
+        max-width: 900px;
+    
+    }
+
+    #contact .content-content .info{
+        width: 50%;
+        color: #000;
+        margin-left: 5px;
+    
+    }
+    #contact .content-content .info div{
+        margin: 10px 0;
+        line-height: 1.5;
+    }
+    #contact .content-content .info h3{
+        font-size: 13px;
+        color: #383848;
+        margin-bottom: 3px;
+    }
+    #contact .content-content .info p i{
+        font-family: 300;
+        color: #d88b34;
+        padding-right: 5px;
+    }
+    #contact .content-content .info a i{
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        color: #383848;
+        font-size: 14px;
+        padding: 8px;
+    }
+    form input , textarea{
+        padding: 5px ;
+        margin: 5;
+    }
+    #contact button{
+        padding: 9px;
+    }
+    
+    }
+
